@@ -38,4 +38,4 @@ under the folder named :
 The format/convention is that (first all Z coordinates are spanned, while X and Y are zero, and then Y coordinate is increased to next consecutive grid and again all Z coordinate are spanned, and this happens until all Y and Z are spanned while X is still 0, and lastly, X is increased to next consecutive grid and again Y and Z are spanned in same order until all X is spanned).
 
 **
-The code has the name  (final.py)**
+The code has the name  (final.py)  in the main branch**
