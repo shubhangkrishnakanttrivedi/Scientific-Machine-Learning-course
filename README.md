@@ -43,10 +43,11 @@ The code has the name  (final.py)  in the main branch**
 
 For running the code, download all the folders as mentioned above (there would be 6 of them currently), then merge all the files of 4 atoms (currently in seperate 4 folders into one single folder).
 
-Then in the code (final.py) ---- input the path to the files containing 4 atoms, 32 atoms and 108 atoms in the lines 43, 44, and 45 and create 4 text files containing  names 'vac_2.txt', 'vac_3.txt', 'vac_4.txt', 'vac_5.txt', where the output electron densities of 4 atomic systems containing 108 atoms with a vacany will be saved.
+Then in the code (final.py) ---- input the path to the files containing 4 atoms, 32 atoms and 108 atoms in the lines 43, 44, and 45. After that, create 4 text files containing  names 'vac_2.txt', 'vac_3.txt', 'vac_4.txt', 'vac_5.txt'. The output electron densities of 108 atoms system, corresponding to the Y-Z plane which contains the vacancy site/atom would be saved.
+
+After that, create 4 text files with names 'all_elec_dens_2.txt', 'all_elec_dens_3.txt', 'all_elec_dens_4.txt', 'all_elec_dens_5.txt'. This files would contain all the electron density for 110*110*110 grid points for 108 atom systems with a vacancy.
 
 The remanining 1 system containing 108 atoms with a vacancy resulted in NAN values so the lines (1265 to 1273) in the code (final.py) are commented.
 
 After these steps, you can run the code.
-
 
