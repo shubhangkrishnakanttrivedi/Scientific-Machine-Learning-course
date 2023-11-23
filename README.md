@@ -22,13 +22,16 @@ In the GITHUB,
 
 Branch Name (shubhangkrishnakanttrivedi_108_atoms_with_a_vacancy) contains : 
 
---- FFinal_Test_set_Output_108_Atoms_With_A_Vacancy/FFinal_Test_set_Output_108_Atoms_With_A_Vacancy  (FOLDER) having 5 Nos.  : output density, input and ion (atomic position and charge) **files for 108 atom system with a vacancy**
+**108_atom_system_with_a_vacancy files**
+
+--- FFinal_Test_set_Output_108_Atoms_With_A_Vacancy/FFinal_Test_set_Output_108_Atoms_With_A_Vacancy  (FOLDER) having 5 Nos.  : output density, input and ion (atomic position and charge) 
 
 
 Branch Name (shubhangkrishnakanttrivedi_32_atoms) contains : 
 
---- consolidated_input_files_32_atoms/consolidated_input_files_32_atoms (FOLDER) having 10 Nos. : output density (.dens), (.txt), input (.inpt) and ion (.ion) (atomic position and charge) **files for 32 atom system**
+**32 atoms files**
 
+--- consolidated_input_files_32_atoms/consolidated_input_files_32_atoms (FOLDER) having 10 Nos. : output density (.dens), (.txt), input (.inpt) and ion (.ion) (atomic position and charge)
 
 Branch Name (shubhangkrishnakanttrivedi_4_atoms) contains : 
 
