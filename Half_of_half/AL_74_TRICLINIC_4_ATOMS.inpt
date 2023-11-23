@@ -1,0 +1,31 @@
+#Al_51_TRICLINIC_4_ATOMS_testing_for_actual_simulation
+
+LATVEC:              # the cystal system although triclinic, the unit cell corresspond to				#cubic
+1 0 0
+0 1 0
+0 0 1
+LATVEC_SCALE: 7.653391 7.653391 7.653391        # size of the simulation cell ( confirm if the simulation cell is # is same as unit cell)
+
+FD_GRID: 40 40 40        #1) check for convergence
+BC: P P P                # confirm 
+FD_ORDER: 12             # ok as per the slides
+EXCHANGE_CORRELATION: GGA_PBE           
+SPIN_TYP: 0            
+KPOINT_GRID: 11 11 11          # initial assumption of 11*11*11
+
+ELEC_TEMP_TYPE: fermi-dirac
+ELEC_TEMP: 315.775
+
+
+TOL_SCF: 1e-5
+MIXING_PARAMETER: 0.1
+RELAX_FLAG: 0
+#RELAX:METHOD: LBFGS
+#RELAX_NITER: 500
+#TOL_RELAX: 5e-4
+#TOL_RELAX_CELL: 1e-3RELAX_MAXDILAT: 1.5
+PRINT_ATOMS: 1
+PRINT_FORCES: 1
+#PRINT_RELAXOUT: 1
+PRINT_EIGEN: 1
+PRINT_DENSITY: 1
