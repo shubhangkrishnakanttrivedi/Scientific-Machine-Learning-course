@@ -20,22 +20,27 @@ For running the ML simulation, the resources used were 72 processors on Xeon 622
 
 In the GITHUB, 
 
+Branch Name (shubhangkrishnakanttrivedi_108_atoms_with_a_vacancy) contains : 
+
+--- FFinal_Test_set_Output_108_Atoms_With_A_Vacancy/FFinal_Test_set_Output_108_Atoms_With_A_Vacancy  (FOLDER) having 5 Nos.  : output density, input and ion (atomic position and charge) **files for 108 atom system with a vacancy**
+
+
+Branch Name (shubhangkrishnakanttrivedi_32_atoms) contains : 
+
+--- consolidated_input_files_32_atoms/consolidated_input_files_32_atoms (FOLDER) having 10 Nos. : output density (.dens), (.txt), input (.inpt) and ion (.ion) (atomic position and charge) **files for 32 atom system**
+
+
 Branch Name (shubhangkrishnakanttrivedi_4_atoms) contains : 
 
---- FFinal_Test_set_Output_108_Atoms_With_A_Vacancy/FFinal_Test_set_Output_108_Atoms_With_A_Vacancy  (FOLDER) having 5 Nos.  : output density, input and ion (atomic position and charge) files for 108 atom system with a vacancy 
-
---- consolidated_input_files_32_atoms/consolidated_input_files_32_atoms (FOLDER) having 10 Nos. : output density (.dens), (.txt), input (.inpt) and ion (.ion) (atomic position and charge) files for 32 atom system
+**4 atoms files**
 
 --- The 4 atom system files are distrbuted in several folders named :
 
   1 - Half_of_half
-  2 - Half__of_other_half
-  3 - other_half_of_half
-
---- And  the remaining 4 atom system files are in Branch Name (shubhangkrishnakanttrivedi_4_atoms_4), 
-under the folder named : 
-
+  2 - other_half_of_half
+  3 - Half_of_other_half
   4 - other_half_of_other_half
+
 
 
 
@@ -56,3 +61,18 @@ The remanining 1 system containing 108 atoms with a vacancy resulted in NAN valu
 
 After these steps, you can run the code.
 
+
+**The results of the pre-ran code are in the folder named (Results) in the main brach**
+
+There are two subfolders in the Results :
+
+ 1 - All_electron_densities_108_atoms_with_a_vacancy
+
+ It contains all the electron density for 108 atom systems simulation. There would be 110^3 entries in each of the 4 files.
+ **The format of the electron density is same as mentioned above in line 48 of the readme.MD file.**
+
+ Second subfolder, 
+ 
+ 2 - Electron_density_on_the_Y_Z_Plane_containing_vacancy
+ 
+Contains 4 files, in which the electron densities are shown only for that Y-Z plane (for a particular value of X) which houses the vacancy.
