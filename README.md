@@ -64,15 +64,11 @@ After these steps, you can run the code.
 
 **The results of the pre-ran code are in the folder named (Results) in the main brach**
 
-There are two subfolders in the Results :
-
- 1 - All_electron_densities_108_atoms_with_a_vacancy
-
- It contains all the electron density for 108 atom systems simulation. There would be 110^3 entries in each of the 4 files.
- **The format of the electron density is same as mentioned above in line 48 of the readme.MD file.**
-
- Second subfolder, 
- 
- 2 - Electron_density_on_the_Y_Z_Plane_containing_vacancy
+ 1 - Electron_density_on_the_Y_Z_Plane_containing_vacancy
  
 Contains 4 files, in which the electron densities are shown only for that Y-Z plane (for a particular value of X) which houses the vacancy.
+
+ **The format of the electron density is same as mentioned above in line 48 of the readme.MD file.** (With only 1 value of X for each file).
+
+
+ 
